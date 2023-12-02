@@ -26,7 +26,6 @@ def gradient_text2(text, color1, color2):
         background: -webkit-linear-gradient(left, {color1}, {color2});
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-weight: bold;
         font-size: 22px;
         font-style: italic;
     """

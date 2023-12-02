@@ -142,6 +142,7 @@ def main():
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 22px;
+        font-style: italic;
         """
         return f'<span style="{gradient_css}">{text}</span>'
 

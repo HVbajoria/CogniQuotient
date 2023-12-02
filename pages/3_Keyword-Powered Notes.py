@@ -37,6 +37,7 @@ def main():
         background: -webkit-linear-gradient(left, {color2}, {color1});
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-style: italic;
         font-size: 22px;
         """
         return f'<span style="{gradient_css}">{text}</span>'
