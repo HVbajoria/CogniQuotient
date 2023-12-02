@@ -268,7 +268,6 @@ best_matrix = Image.open('confusion_matrix.png')
 
 
 # on the right side, allow users to submit a URL
-st.header('Try it out!')
 st.write('*(Note that we do not use the bag-of-words or GloVe features in this model, in order to speed up deployment and save memory.)*')
 
 with st.form(key='try_it_out'):
