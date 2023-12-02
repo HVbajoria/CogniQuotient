@@ -8,8 +8,8 @@ from streamlit_extras.switch_page_button import switch_page
 from auth0_component import login_button
 
 domain = "dev-qzlbx0jqzsgjkeaf.us.auth0.com"
-clientId = "MxxNJ7qlS1CLzusDdY10wIjYYStaswk4"
-auth0_client_secret = "AhmJasxlnHfhl2Eop4krFvO_JEW9OTmuD7twFoU6xpX6ZBbMsKnUDMziuc4ZGRg2"
+clientId = "OlkHcygGI30sntGWCA1Cjur3HRwk90Ku"
+auth0_client_secret = "lTuRI1MJt_eM5wTt6AqfSxVH_fFT-GDHDOeD2AgbBhGCGBsl-U6837GyzOmpvM9A"
 
 
 DEFAULT_PAGE = "CogniQuotient.py"
