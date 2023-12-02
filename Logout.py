@@ -118,11 +118,14 @@ def main():
               
         2. **VideoLink**: Dive into learning with ease! Our Video Searcher finds the most relevant learning videos on any topic using the Azure Bing Search API service.
    
-        3. **Keyword-Powered Notes**: Take notes like a pro! Our Note Maker extracts keywords and lets you download them in bold format - powered by Azure Keyword Extractor Feature.
+        3. **Keyword-Powered Notes**: Take notes like a pro! Our Note Maker extracts keywords and lets you download them in bold format - powered by the Azure Keyword Extractor Feature.
    
         4. **LinguaBrief**: Unlock the power of instant translation and summarization with our Text Summarizer, backed by Azure AI Text Summarizer and Translator.
         
-        5. **LinguaSense:** Seamlessly analyze sentiment, translate text, and convert it to audio using Azure AI Language Service and gTTS.
+        5. **LinguaSense:** Seamlessly analyze sentiment, translate text, and convert it to audio using Azure AI-Language Service and gTTS.
+
+        6. **LegitLens**: Predict the authenticity of any news article with our Fake News Detector, powered by ML model built and tested using Azure ML Studio.
+                
                 """)
 
     st.markdown(
