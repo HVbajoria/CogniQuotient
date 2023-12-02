@@ -264,27 +264,14 @@ def load():
 
 model, feature_descriptions, compiled_featurizer, requests, confusion_matrix, print_metrics, train_data, val_data = load()
 
-# columns
-left, right = st.columns(2)
-
-left.divider()
-
 best_matrix = Image.open('confusion_matrix.png')
 
-left.image(best_matrix, caption='Confusion matrix.')
-left.subheader('Here are some metrics for the most accurate model we trained!')
-left.write('**Maximum achieved accuracy:** $0.9029126213592233$')
-left.write('**Maximum achieved precision:** $0.8404907975460123$')
-left.write('**Maximum achieved recall:** $0.9716312056737588$')
-left.write('**Maximum achieved F-1 score:** $0.9013157894736842$')
-
-left.divider()
 
 # on the right side, allow users to submit a URL
-right.header('Try it out!')
-right.write('*(Note that we do not use the bag-of-words or GloVe features in this model, in order to speed up deployment and save memory.)*')
+st.header('Try it out!')
+st.write('*(Note that we do not use the bag-of-words or GloVe features in this model, in order to speed up deployment and save memory.)*')
 
-with right.form(key='try_it_out'):
+with st.form(key='try_it_out'):
   raw_url = st.text_input(label='Enter a news article or site URL to predict validity', key='url')
   st.write('*Make sure your URL is valid.*')
 
@@ -319,6 +306,13 @@ with right.form(key='try_it_out'):
         st.write('\n\n'.join(map(lambda feature: f'The feature `{feature[0]}` has a weight of **{feature[1][1]}**. Multiplied by its value gives **{feature[1][0]}**.', items)))
     except:
       advice = st.write('*I don\'t think your URL worked. Please check your spelling or try another.*')
+
+st.image(best_matrix, caption='Confusion matrix.')
+st.subheader('Here are some metrics for the most accurate model we trained!')
+st.write('**Maximum achieved accuracy:** $0.9029126213592233$')
+st.write('**Maximum achieved precision:** $0.8404907975460123$')
+st.write('**Maximum achieved recall:** $0.9716312056737588$')
+st.write('**Maximum achieved F-1 score:** $0.9013157894736842$')
 
 with st.expander('See our data.'):
   st.write('**Training data (only first 20 rows).**')
