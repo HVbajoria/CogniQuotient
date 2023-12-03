@@ -9,7 +9,9 @@ st.set_page_config(
      page_icon="🏫",
      initial_sidebar_state="expanded", 
  ) 
-
+if 'username' not in st.session_state:
+    st.session_state["username"]="User"
+    
 def gradient_text(text, color1, color2):
     gradient_css = f"""
         background: -webkit-linear-gradient(left, {color1}, {color2});
