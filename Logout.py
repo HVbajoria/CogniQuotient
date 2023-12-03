@@ -81,7 +81,7 @@ st.session_state["username"]="User"
 # Main function
 def main():
     # """Login page"""
-    logged_in = False
+    logged_in = True
     hide_default_format = """ 
         <style> 
         #MainMenu {visibility: show; } 
