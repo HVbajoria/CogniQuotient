@@ -161,7 +161,7 @@ text-align: center;
     st.write(logged_in)
     if user_info:
         st.session_state["username"]=user_info["name"]
-        logged_in = True
+        logged_in = False
 
         st.success("Logged In as {}".format(user_info["name"]))
 
