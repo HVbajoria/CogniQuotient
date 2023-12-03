@@ -8,7 +8,6 @@ BING_API_KEY = st.secrets['BING_API_KEY'] # Replace this with your actual Bing A
 st.set_page_config( 
      page_title="CogniQuotient", 
      page_icon="🏫",
-     layout="wide", 
      initial_sidebar_state="expanded", 
  ) 
 
