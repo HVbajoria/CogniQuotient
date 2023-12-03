@@ -11,7 +11,6 @@ credential = AzureKeyCredential(key)
 st.set_page_config( 
      page_title="CogniQuotient", 
      page_icon="🏫",
-     layout="wide", 
      initial_sidebar_state="expanded", 
  ) 
 
