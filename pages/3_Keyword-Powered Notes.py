@@ -2,6 +2,7 @@ import streamlit as st
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 from docx import Document
+import os
 
 key = os.environ['LANGUAGE_KEY']
 endpoint = os.environ['LANGUAGE_ENDPOINT']

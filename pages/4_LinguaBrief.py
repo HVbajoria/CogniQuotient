@@ -6,6 +6,7 @@ import requests
 from languages import languages
 from docx import Document
 from gtts import gTTS
+import os
 
 key = os.environ['LANGUAGE_KEY']
 endpoint = os.environ['LANGUAGE_ENDPOINT']

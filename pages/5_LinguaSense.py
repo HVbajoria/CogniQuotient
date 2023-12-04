@@ -9,6 +9,7 @@ from gtts import gTTS
 import os
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
+import os
 
 key = os.environ['key_sentiment']
 endpoint = os.environ['endpoint_sentiment']

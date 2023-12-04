@@ -1,5 +1,6 @@
 import requests
 import streamlit as st
+import os
 
 # Azure Bing Search API endpoint and key
 BING_API_ENDPOINT = 'https://api.bing.microsoft.com/'+"/v7.0/search"
