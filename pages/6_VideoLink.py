@@ -3,7 +3,7 @@ import streamlit as st
 
 # Azure Bing Search API endpoint and key
 BING_API_ENDPOINT = 'https://api.bing.microsoft.com/'+"/v7.0/search"
-BING_API_KEY = st.secrets['BING_API_KEY'] # Replace this with your actual Bing API key
+BING_API_KEY = os.environ['BING_API_KEY'] # Replace this with your actual Bing API key
 
 st.set_page_config( 
      page_title="CogniQuotient", 

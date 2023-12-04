@@ -10,8 +10,8 @@ import os
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
-key = st.secrets['key_sentiment']
-endpoint = st.secrets['endpoint_sentiment']
+key = os.environ['key_sentiment']
+endpoint = os.environ['endpoint_sentiment']
 
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
@@ -87,8 +87,8 @@ def analyze_sentiment(text) -> None:
     from azure.core.credentials import AzureKeyCredential
     from azure.ai.textanalytics import TextAnalyticsClient
 
-    endpoint_sentiment = st.secrets['endpoint_sentiment']
-    key_sentiment = st.secrets['key_sentiment']
+    endpoint_sentiment = os.environ['endpoint_sentiment']
+    key_sentiment = os.environ['key_sentiment']
 
     text_analytics_client = TextAnalyticsClient(endpoint=endpoint_sentiment, credential=AzureKeyCredential(key_sentiment))
     
@@ -119,7 +119,7 @@ def translator(text, to_lang):
     constructed_url = endpoint + path + params
 
     headers = {
-        'Ocp-Apim-Subscription-Key': st.secrets['TRANSLATOR_KEY'],
+        'Ocp-Apim-Subscription-Key': os.environ['TRANSLATOR_KEY'],
         'Ocp-Apim-Subscription-Region': "centralindia",
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())

@@ -63,7 +63,7 @@ def load():
   import azure.storage.blob as blob
 
   # Create a BlobServiceClient object for the storage account.
-  blob_service_client = blob.BlobServiceClient.from_connection_string(conn_str=st.secrets['AZURE_STORAGE_CONNECTION_STRING'])
+  blob_service_client = blob.BlobServiceClient.from_connection_string(conn_str=os.environ['AZURE_STORAGE_CONNECTION_STRING'])
 
   # Get a BlobClient object for the zip file.
   container_client = blob_service_client.get_container_client(container= 'dataset') 

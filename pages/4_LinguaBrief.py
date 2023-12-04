@@ -7,8 +7,8 @@ from languages import languages
 from docx import Document
 from gtts import gTTS
 
-key = st.secrets['LANGUAGE_KEY']
-endpoint = st.secrets['LANGUAGE_ENDPOINT']
+key = os.environ['LANGUAGE_KEY']
+endpoint = os.environ['LANGUAGE_ENDPOINT']
 
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
@@ -108,7 +108,7 @@ def translator(text, to_lang):
     constructed_url = endpoint + path + params
 
     headers = {
-        'Ocp-Apim-Subscription-Key': st.secrets['TRANSLATOR_KEY'],
+        'Ocp-Apim-Subscription-Key': os.environ['TRANSLATOR_KEY'],
         'Ocp-Apim-Subscription-Region': "centralindia",
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())

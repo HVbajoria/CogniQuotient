@@ -6,6 +6,7 @@ Pillow==9.0.0
 streamlit-auth0-component
 streamlit_extras
 gtts
+os
 chardet==5.1.0
 charset-normalizer==3.2.0
 docarray==0.13.17

@@ -3,8 +3,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 from docx import Document
 
-key = st.secrets['LANGUAGE_KEY']
-endpoint = st.secrets['LANGUAGE_ENDPOINT']
+key = os.environ['LANGUAGE_KEY']
+endpoint = os.environ['LANGUAGE_ENDPOINT']
 
 credential = AzureKeyCredential(key)
 text_analytics_client = TextAnalyticsClient(endpoint, credential)

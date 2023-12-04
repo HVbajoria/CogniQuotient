@@ -2,9 +2,10 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.language.questionanswering import QuestionAnsweringClient
 from azure.ai.language.questionanswering import models as qna
 import streamlit as st
+import os 
 
-key = st.secrets['LANGUAGE_KEY']
-endpoint = st.secrets['CHATBOT_ENDPOINT']
+key = os.environ['LANGUAGE_KEY']
+endpoint = os.environ['CHATBOT_ENDPOINT']
 
 credential = AzureKeyCredential(key)
 
