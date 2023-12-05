@@ -63,7 +63,6 @@ news detection.
 * **Microsoft Azure Keyword Extractor Service** to extract the relevant keywords from the text.
 * **Microsoft Azure Language Service** to summarize and translate the text to any language. 
 * **gTTs and LLM model** to convert text to audio and doc in real-time. 
-* **Auth0** for one-click faster, safer, and more powerful authentication.
  **Microsoft Azure AI Sentiment Analysis** for real-time sentiment analysis.
 * **GitHub** to host the source code, use the version control (collaboration history) to understand the changes, and go back and forth if required to complete the software. Also, GitHub Codespaces uses in-browser VS code for quick and easy building and deployment of the software.
 
