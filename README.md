@@ -30,7 +30,8 @@ Many individuals and professionals struggle to efficiently manage and organize v
 * **Time-Intensive Summarization:** Manually summarizing lengthy texts is laborious and consumes valuable time.
 * **Limited Multilingual Understanding:** The inability to understand and communicate in multiple languages restricts global collaboration and learning
 opportunities.
-* **Vision Difficulties**: Some people face difficulty reading texts from the screen because of which they miss learning opportunities. 
+* **Vision Difficulties**: Some people face difficulty reading texts from the screen because of which they miss learning opportunities.
+* **Proliferation of Misinformation:** The internet has facilitated the rapid dissemination of information, leading to a surge in the spread of fake news. Misinformation poses a significant threat to public discourse, influencing opinions and decision-making.
 
  ## Solution: 💡  
 Introducing "CogniQuotient," a cutting-edge solution powered by Azure AI service and seamlessly integrated through Streamlit. Tackling the prevalent challenges head-on, this innovation provides the following transformative features:
@@ -49,9 +50,14 @@ LinguaSense and LinguaBrief are backed by Text to Speech Services by gTTS LLM mo
  ## Tech Stack: 
  The following tech stacks have been used to create the application and deploy it.   
 * **Streamlit** to build the front end of the application. 
-* **Streamlit Cloud** to deploy the application for global access. 
-* **Microsoft Azure Conversational AI Service** to create a responsive chatbot that can be used to effectively understand a text. 
-* **Microsoft Azure Bing Service API** to search the relevant videos from the web which can be used to learn a topic. 
+* **Microsoft Azure App Service** to deploy the application for global access. 
+* **Microsoft Azure Conversational AI Service** to create a responsive chatbot that can be used to effectively understand a text.
+* **Microsoft Azure Blob Storage** to store the training and testing dataset along with hosting images.
+* **icrosoft Azure ML Studio** to build and test Machine Learning models for fake 
+news detection.
+* **NLP and ML Models** to extract the relevant features, keywords and build the prediction model
+* **Microsoft Azure Bing Service API** to search the relevant videos from the web which can be used to learn a topic.
+* **Microsoft Azure Conversational AI:** to create a chatbot for Chat & Learn feature.
 * **Microsoft Azure Keyword Extractor Service** to extract the relevant keywords from the text.
 * **Microsoft Azure Language Service** to summarize and translate the text from, to any language. 
 * **gTTs and LLM model** to convert text to audio and doc in real-time. 
@@ -81,6 +87,7 @@ Through these innovative features, "CogniQuotient" emerges as a pioneering solut
 * **Multimedia Integration:** Expand "VideoLink" to support a wider array of multimedia content, including interactive simulations and augmented reality, to further enhance learning experiences.
 * **Real-time Collaboration:** Enable collaborative note-taking and discussion features, allowing users to collectively build and refine knowledge repositories in real-time.
 * **AI-Powered Analytics:** Implement advanced analytics to track learning progress, identify user preferences, and offer data-driven recommendations for continuous improvement.
+* **Multimedia scrunity:** Implement multimedia scunity to display only relevant content that will be used for educational purpose with proper licensing. 
 
 In embracing these future directions, "CogniQuotient" evolves into an indispensable tool that solves current challenges and reshapes the educational and information landscape, driving innovation and enriching global knowledge sharing.
   
