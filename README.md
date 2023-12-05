@@ -59,7 +59,6 @@ LinguaSense and LinguaBrief are backed by Text to Speech Services by the gTTS LL
 news detection.
 * **NLP and ML Models** to extract the relevant features, and keywords and build the prediction model
 * **Microsoft Azure Bing Service API** to search the relevant videos from the web which can be used to learn a topic.
-* **Microsoft Azure Conversational AI:** to create a chatbot for Chat & Learn feature.
 * **Microsoft Azure Keyword Extractor Service** to extract the relevant keywords from the text.
 * **Microsoft Azure Language Service** to summarize and translate the text to any language. 
 * **gTTs and LLM model** to convert text to audio and doc in real-time. 
@@ -70,7 +69,7 @@ news detection.
 
 * **Chat & Learn** uses Azure Conversational AI
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Chat%20%26%20Learn.png?sp=r&st=2023-12-05T08:35:12Z&se=2024-01-31T16:35:12Z&sv=2022-11-02&sr=b&sig=nCd6G2NSxeSBL4byy0Exo%2BIM4g%2BJLCx26HTE64j%2F%2B8E%3D" width="850" alt="chat_and_learn" > 
+ <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Chat%20%26%20Learn.png?sp=r&st=2023-12-05T09:31:43Z&se=2024-01-31T17:31:43Z&sv=2022-11-02&sr=b&sig=qUmFDfqsCg94GmZ7Ul6kGssnBq0ZpZFf0nDkCwOarwo%3D" width="850" alt="chat_and_learn" > 
    </p> 
    </br>
    
@@ -81,12 +80,12 @@ news detection.
 
  * **LinguaSense** uses Azure AI Translator service and Azure Sentiment Analysis (Azure Language Service)
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaSense.png?sp=r&st=2023-12-05T08:41:10Z&se=2024-01-31T16:41:10Z&sv=2022-11-02&sr=b&sig=KGFZFMs8MBMd23MWlVcnNWYJDZUmZm%2BjEXIUQ6KQku4%3D" width="850" alt="linguasense" > 
+ <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaSense.png?sp=r&st=2023-12-05T09:33:27Z&se=2024-01-31T17:33:27Z&sv=2022-11-02&sr=b&sig=DP2BXemFojcq06cTKuejPRiVHzWLoFiTjFCfg5vIoIk%3D" width="850" alt="linguasense" > 
    </p>
 
  * **LinguaBrief** uses Azure Text Summarizer and Azure AI Translator service  (Azure Language Service)
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaBrief.png?sp=r&st=2023-12-05T08:41:40Z&se=2024-01-31T16:41:40Z&sv=2022-11-02&sr=b&sig=opUj1N6l69xKFx8rbL8lhQZtptMTMvQ4Ze0NI%2BzqIjc%3D" width="850" alt="linguabrief" > 
+ <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaBrief.png?sp=r&st=2023-12-05T09:35:22Z&se=2024-01-31T17:35:22Z&sv=2022-11-02&sr=b&sig=UyzL7vYMKLff869LvxeC02TcgPd7qV9KYxIB5ovSgjc%3D" width="850" alt="linguabrief" > 
    </p>
 
  * **VideoLink** uses Azure Bing Search API
@@ -96,7 +95,7 @@ news detection.
 
  * **Legit Lens** uses Azure Blob Storage and Azure ML Studio
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Legit%20Lens%20(1).png?sp=r&st=2023-12-05T08:43:57Z&se=2024-01-31T16:43:57Z&sv=2022-11-02&sr=b&sig=imKmdCLSLuS%2FD7cmmrotu%2BJ0tjIT2CTTQRpoIV6VzzU%3D" width="850" alt="legitlens" > 
+ <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Legit%20Lens%20(1).png?sp=r&st=2023-12-05T09:35:59Z&se=2024-01-31T17:35:59Z&sv=2022-11-02&sr=b&sig=oywVoJdlPEHetSB3IYq59wH8hZDxyaKl41IDE1M3pfs%3D" width="850" alt="legitlens" > 
    </p>
    
  ## Demo Video Link :movie_camera: : https://youtu.be/cCXkh27J9NY
