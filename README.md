@@ -1,12 +1,14 @@
 # CogniQuotient 🗒️ :computer: 
  <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Colorful%20Brain%20Digital%20World%20Technology%20Logo.png?sp=r&st=2023-12-05T08:31:56Z&se=2024-01-31T16:31:56Z&sv=2022-11-02&sr=b&sig=WKY%2F6RnQtxNtP6haIraOE3Fqx12XBvgSJGrsd%2Bz34CI%3D" width="250" alt="Logo" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/d1622d3a-014b-45ff-ad44-3f3cc4f0e5e9" width="250" alt="Logo" > 
    </p> 
  </br> 
   
  ## Website Link: https://cogniquotient.azurewebsites.net
 
  ## Demo Video Link: https://youtu.be/cCXkh27J9NY
+
+ ## Presentation Link: https://docs.google.com/presentation/d/1FkdkA2jJdM8R3Qi1WFRJTxow8uJOibIo/edit?usp=sharing&ouid=100025622565396249863&rtpof=true&sd=true
   
  ## Details :  
  **Name** : Harshavardhan Bajoria</br> 
@@ -69,38 +71,40 @@ news detection.
 
 * **Chat & Learn** uses Azure Conversational AI
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Chat%20%26%20Learn.png?sp=r&st=2023-12-05T09:31:43Z&se=2024-01-31T17:31:43Z&sv=2022-11-02&sr=b&sig=qUmFDfqsCg94GmZ7Ul6kGssnBq0ZpZFf0nDkCwOarwo%3D" width="850" alt="chat_and_learn" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/2c473502-874c-4be3-b866-562f5002a4b6" width="850" alt="chat_and_learn" > 
    </p> 
    </br>
    
 * **Keyword Powered Notes** uses Azure Keyword Extractor (Azure Language Service)
-   <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Keyword%20Powered%20Notes%20(1).png?sp=r&st=2023-12-05T08:37:15Z&se=2023-12-05T16:37:15Z&sv=2022-11-02&sr=b&sig=8fkPkn9Camx2zAyMsl1k6KC1ACl6YTUp592BSbCIUuA%3D" width="850" alt="keyword_powered_notes" > 
+   <p align="center">
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/e730a653-ad40-4020-a2a5-384312b2c8e6" width="850" alt="keyword_powered_notes" > 
    </p> 
 
  * **LinguaSense** uses Azure AI Translator service and Azure Sentiment Analysis (Azure Language Service)
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaSense.png?sp=r&st=2023-12-05T09:33:27Z&se=2024-01-31T17:33:27Z&sv=2022-11-02&sr=b&sig=DP2BXemFojcq06cTKuejPRiVHzWLoFiTjFCfg5vIoIk%3D" width="850" alt="linguasense" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/eee8ab12-17f6-4554-8349-227eb779f0c6" width="850" alt="linguasense" > 
    </p>
 
  * **LinguaBrief** uses Azure Text Summarizer and Azure AI Translator service  (Azure Language Service)
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/LinguaBrief.png?sp=r&st=2023-12-05T09:35:22Z&se=2024-01-31T17:35:22Z&sv=2022-11-02&sr=b&sig=UyzL7vYMKLff869LvxeC02TcgPd7qV9KYxIB5ovSgjc%3D" width="850" alt="linguabrief" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/547cdd81-d07c-44e7-aa26-671954ad1eb3" width="850" alt="linguabrief" > 
    </p>
 
  * **VideoLink** uses Azure Bing Search API
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/VideoLink.png?sp=r&st=2023-12-05T08:42:59Z&se=2024-01-31T16:42:59Z&sv=2022-11-02&sr=b&sig=YxvI1uha0Xa0srghaoq3l7tITdmfV7svQvtNBwB6UZw%3D" width="850" alt="videolink" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/11c38b7e-b9a6-438b-85cf-58a6c127bb26" width="850" alt="videolink" > 
    </p>
 
  * **Legit Lens** uses Azure Blob Storage and Azure ML Studio
    <p align="center"> 
- <img src="https://datasetlegitlens.blob.core.windows.net/dataset/Legit%20Lens%20(1).png?sp=r&st=2023-12-05T09:35:59Z&se=2024-01-31T17:35:59Z&sv=2022-11-02&sr=b&sig=oywVoJdlPEHetSB3IYq59wH8hZDxyaKl41IDE1M3pfs%3D" width="850" alt="legitlens" > 
+ <img src="https://github.com/HVbajoria/CogniQuotient/assets/62978274/4a9b6e38-4322-4c57-a1ca-a85d4da9eeab" width="850" alt="legitlens" > 
    </p>
    
  ## Demo Video Link :movie_camera: : https://youtu.be/cCXkh27J9NY
  
  ## Website Link :globe_with_meridians: : https://cogniquotient.azurewebsites.net
+
+ ## Presentation Link: https://docs.google.com/presentation/d/1FkdkA2jJdM8R3Qi1WFRJTxow8uJOibIo/edit?usp=sharing&ouid=100025622565396249863&rtpof=true&sd=true 
   
  ## Social Impact / Novelty: 
 "CogniQuotient" emerges as a groundbreaking solution that not only addresses the widespread challenges of information management, learning accessibility, and global communication barriers but also ushers in a new era of seamless knowledge exchange. By harnessing the power of Azure AI service and Streamlit, this innovation empowers individuals, educators, and professionals in diverse ways:
